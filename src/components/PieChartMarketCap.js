@@ -12,7 +12,7 @@ export default function PieChartMarketCap(props) {
     : []
     
     return (
-        <div style={{textAlign : 'center' , margin : '40px 0px'}}>
+        <div className="wow animate__animated animate__fadeInRight" style={{textAlign : 'center' , margin : '40px 0px'}}>
             <div style={{ margin : '20px 0px'}}>
                 <h3 className="h1Show h3Pie">Top 10 cryptocurrency by market cap</h3>
             </div>

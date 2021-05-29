@@ -4,12 +4,12 @@ export default function ShowListing(props) {
     let listCoins = props.listing.response;
     return (
         <div className ="showListing">
-            <h3 className="h1Show">Top 10 Cryptocurrency</h3>
+            <h3 className="h1Show wow animate__animated animate__fadeInLeft">Top 10 Cryptocurrency</h3>
             {listCoins ? 
                 listCoins.map((coin , index)=> 
-                <div className="itemCoin" key={index}>
+                <div className="wow animate__animated animate__fadeInRight itemCoin" key={index}>
                     <span className="rank">{index+1}</span>
-                    <div>
+                    <div className ="info__price">
                     <p className="nameCoin"> {coin.name} </p>
                     <p className="priceCoin"> {coin.current_price}<span> $</span></p>
                     <p className={`${(coin.price_change_percentage_24h).toFixed(2) > 0 ? 'changeCoin green' : 'changeCoin red' }`} > {(coin.price_change_percentage_24h).toFixed(2)}<span> %</span></p>

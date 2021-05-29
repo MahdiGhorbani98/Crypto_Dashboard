@@ -1,2 +1,9 @@
 @import url(./header.css);
-@import url(./showListing.css)
+@import url(./showListing.css);
+body{
+    overflow-x: hidden;
+}
+#root{
+    overflow-x: hidden;
+
+}

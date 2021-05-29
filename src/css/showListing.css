@@ -1,3 +1,4 @@
+
 .showListing{
     text-align: center;
     margin-top: 30px;
@@ -67,8 +68,8 @@
     border-radius: 6px;
 }
 .priceCoin span{
-    color: #5b1d96;
-    font-size: 18px;
+    color: #000000;
+    font-size: 20px;
     font-weight: 700;
 }
 
@@ -117,7 +118,7 @@
         align-items: center;
         text-align: center;
         padding: 10px 15px;
-        margin: 15px ;
+        margin: 7px ;
         width: 95%;
     }
     .rank{

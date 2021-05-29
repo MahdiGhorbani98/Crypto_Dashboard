@@ -1,12 +1,13 @@
 {
   "name": "cryptocurrency",
   "version": "0.1.0",
-  "homepage" : "http://mahdighorbani98.github.io/Crypto_Dashboard",
+  "homepage": "http://mahdighorbani98.github.io/Crypto_Dashboard",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.12.0",
     "@testing-library/react": "^11.2.7",
     "@testing-library/user-event": "^12.8.3",
+    "animate.css": "^4.1.1",
     "axios": "^0.21.1",
     "chart.js": "^3.3.0",
     "coingecko-api": "^1.0.10",

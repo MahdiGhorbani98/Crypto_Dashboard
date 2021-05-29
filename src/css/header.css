@@ -3,6 +3,22 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+/* .rank  {
+    overflow-x: initial;
+}
+.empty  {
+    overflow-x: initial;
+}
+.info__price{
+    overflow-x: initial;
+}
+.itemCoin{
+    overflow-x: initial;
+} */
+
+
+
 html{
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
